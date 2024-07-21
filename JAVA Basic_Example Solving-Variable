@@ -1,15 +1,16 @@
 package variable.ex1;
 
 /*
-4,3을 다른 숫자로 한번에 변경할 수 있도록 num1, num2를 사용
- */
+/ Use num1 and num2 to divert another number at once
+*/
+
 public class VarEx1 {
     public static void main(String[] args) {
-        int num1 = 4;
-        int num2 = 3;
+        int num1 = 4;                                                //int variable
+        int num2 = 3;                                                //int variable
 
-        System.out.println("두 수의 합 = " +  (num1 + num2));
-        System.out.println("두 수의 곱 = " + (num1 * num2));
-        System.out.println("두 수의 뺼셈 = " + (num1 - num2));
+        System.out.println("두 수의 합 = " +  (num1 + num2));        // SUM
+        System.out.println("두 수의 곱 = " + (num1 * num2));         // MULTIPLY
+        System.out.println("두 수의 뺼셈 = " + (num1 - num2));       // SUBTRACT
     }
 }
